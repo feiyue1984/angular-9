@@ -1,7 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Ingredient} from '../shared/Ingredient.model';
 import {ShoppingListService} from './shopping-list.service';
-import {subscriptionLogsToBeFn} from 'rxjs/internal/testing/TestScheduler';
 import {Subscription} from 'rxjs';
 
 @Component({
